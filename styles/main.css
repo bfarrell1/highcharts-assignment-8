@@ -1,0 +1,78 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background: #4d545c;
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    margin: 4rem;
+}
+#title {
+  text-align:center;
+  align-content: center;
+}
+#byline {
+  text-align: center;
+}
+
+#chart1 {
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  margin-left: -20px;
+}
+
+#chart2 {
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  margin-left: -20px;
+  align-content: center;
+}
+#explanation {
+  max-width: 1000px
+}
+
+#source1, #source2 {
+  text-align: center;
+}
+
+#title, #byline, #chart1, #source1, #chart2, #source2, #explanation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  max-width: 1000px
+}
+a {
+    color: #3ecbfa;
+}
+
+a:hover {
+    color: #fbff1f;
+}
+@media screen and (max-width: 880px) {
+#chart1, #chart2 {
+  max-width: 100%;
+  padding-left: 0px;
+  padding-bottom: 20px
+  align-content: left;
+}
+#title, #byline {
+  padding-bottom: 20px;
+  text-align: left;
+}
+#explanation {
+  padding-bottom: 20px;
+  text-align: left;
+}
+#source1, #source2 {
+  padding-bottom: 20px;
+  text-align: left;
+  margin-right: 10px
+}
+}
