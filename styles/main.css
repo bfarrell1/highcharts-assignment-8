@@ -14,9 +14,11 @@ body {
 #title {
   text-align:center;
   align-content: center;
+  padding-bottom: 20px;
 }
 #byline {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #chart1 {
@@ -59,15 +61,14 @@ a:hover {
 #chart1, #chart2 {
   max-width: 100%;
   padding-left: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   align-content: left;
 }
 #title, #byline {
-  padding-bottom: 20px;
   text-align: left;
 }
 #explanation {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   text-align: left;
 }
 #source1, #source2 {
